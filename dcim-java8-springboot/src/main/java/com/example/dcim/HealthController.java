@@ -8,6 +8,6 @@ public class HealthController {
 
     @GetMapping("/health")
     public String health() {
-        return "DCIM service is running100%";
+        return "DCIM service is running1000%";
     }
 }
