@@ -1,9 +1,9 @@
-package com.example.controller;
+package com.example.dcim.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.example.controller", "com.example.dcim"})
 public class DcimApplication {
 
     public static void main(String[] args) {
